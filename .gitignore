@@ -1,0 +1,22 @@
+# Python
+__pycache__
+*.pyc
+.pytest_cache
+venv
+.venv
+env
+.env
+
+# Flask
+instance/
+.webassets-cache
+
+# Databases and environment files
+*.sqlite
+.flaskenv
+.env
+
+# OS and Editor files
+.DS_Store
+.vscode/
+.idea/
