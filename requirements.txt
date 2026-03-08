@@ -1,0 +1,2 @@
+-r base_requirements.txt
+flask==2.3.1  # Make sure you have this version or one compatible with your project dependencies.

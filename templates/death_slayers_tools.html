@@ -1,0 +1,56 @@
+<html>
+
+    <head>
+        <title>Death Slayers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <header>
+        <h1>This is the Page for Death Slayers Tools</h1>
+        <p>
+            Death Slayers, here are tools that make that so.
+        </p>
+    </header>
+
+    <body>
+        <!-- all the links to different tools -->
+        <div class="tool_links_ds">
+            
+            <!-- a single tool link button -->
+            <div class="control">
+                <a href="{{ url_for('bp_death_slayers.death_slayers_rules') }}">
+                <button aria-label="Tools Link" class="tool_links_button">
+                    <span class="btn-image"></span>
+                    <span class="btn-text">Rule Book</span>
+                </button>
+                </a>
+            </div>  
+            
+            <!-- a single tool link button -->
+            <div class="control">
+                <a href="{{ url_for('bp_death_slayers.death_slayers_rules') }}">
+                <button aria-label="Tools Link" class="tool_links_button">
+                    <span class="btn-image"></span>
+                    <span class="btn-text">Character Sheet</span>
+                </button>
+                </a>
+            </div>  
+
+            <!-- a single tool link button -->
+            <div class="control">
+                <a href="{{ url_for('bp_death_slayers.death_slayers_tools') }}">
+                <button aria-label="Tools Link" class="tool_links_button">
+                    <span class="btn-image"></span>
+                    <span class="btn-text">Items Info</span>
+                </button>
+                </a>
+            </div>  
+        </div>
+
+        
+    </body>
+
+
+
+</html>

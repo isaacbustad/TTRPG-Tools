@@ -1,0 +1,45 @@
+{
+    "weapons":
+    [ 
+        {
+            "name": "Dragon Slayer",
+            "range": "10ft",
+            "damage_type": "Slashing",
+            "class": "Slayer",
+            "die_size": "D12",
+            "throwing_distance": "0ft",
+            "boons": "Can be used as shield",
+            "banes": "-D6 to attack in confined space"
+        },
+        {
+            "name": "Zwei Hander",
+            "range": "5ft",
+            "damage_type": "Slashing",
+            "class": "Two Handed",
+            "die_size": "D10",
+            "throwing_distance": "0ft",
+            "boons": "none",
+            "banes": "none"
+        },
+        {
+            "name": "Arming Sword",
+            "range": "5ft",
+            "damage_type": "Slashing",
+            "class": "One Handed",
+            "die_size": "D8",
+            "throwing_distance": "10ft",
+            "boons": "none",
+            "banes": "none"
+        },
+        {
+            "name": "Dager",
+            "range": "5ft",
+            "damage_type": "Slashing",
+            "class": "One Handed",
+            "die_size": "D6",
+            "throwing_distance": "15ft",
+            "boons": "can be dule weilded",
+            "banes": "none"
+        }
+    ]
+}
